@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestcalcProject", "InterestcalcProject\InterestcalcProject.csproj", "{003D8A7C-5369-4A1C-9995-EE73E2BE262B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestcalcProject.Tests", "InterestcalcProject.Tests\InterestcalcProject.Tests.csproj", "{DC623B1D-FAEB-47FD-8F5A-06864D7C4DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{B09EE727-4824-4AA6-8A09-A6D2F658145B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{65F6123F-1F74-4B15-8DCF-00906AE42935}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\InterestcalcProject-VM-dev.json = PublishScripts\Configurations\InterestcalcProject-VM-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003D8A7C-5369-4A1C-9995-EE73E2BE262B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003D8A7C-5369-4A1C-9995-EE73E2BE262B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003D8A7C-5369-4A1C-9995-EE73E2BE262B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003D8A7C-5369-4A1C-9995-EE73E2BE262B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC623B1D-FAEB-47FD-8F5A-06864D7C4DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC623B1D-FAEB-47FD-8F5A-06864D7C4DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC623B1D-FAEB-47FD-8F5A-06864D7C4DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC623B1D-FAEB-47FD-8F5A-06864D7C4DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65F6123F-1F74-4B15-8DCF-00906AE42935} = {B09EE727-4824-4AA6-8A09-A6D2F658145B}
+	EndGlobalSection
+EndGlobal
