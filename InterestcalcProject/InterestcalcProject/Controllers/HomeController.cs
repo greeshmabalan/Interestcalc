@@ -34,9 +34,9 @@ namespace InterestcalcProject.Controllers
         }
 
         [HttpPost]
-        public ActionResult Calculate(float amount, float years,float rate)
+        public ActionResult Calculate(double amount, double years, double rate)
         {
-            float interest = 0;
+            double interest = 0;
             interest = amount * years * (rate / 100);
             ViewBag.Interest = interest;
             ViewBag.Message = "Interest calculated successfully";
