@@ -22,7 +22,7 @@ namespace InterestcalcProject.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Contact page!!.";
+            ViewBag.Message = "View Contact page!!.";
 
             return View();
         }
