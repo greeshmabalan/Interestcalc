@@ -39,7 +39,7 @@ namespace InterestcalcProject.Controllers
             double interest = 0;
             interest = amount * years * (rate / 100);
             ViewBag.Interest = interest;
-            ViewBag.Message = "Interest calculated successfully";
+            ViewBag.Message = "Interest calculated successfully!!";
             return View("Calculate");
         }
     }
