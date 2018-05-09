@@ -22,9 +22,9 @@ namespace InterestcalcProject.Controllers
         {
         }
 
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
+        public AccountController(ApplicationUserManager usermanager, ApplicationSignInManager signInManager )
         {
-            UserManager = userManager;
+            UserManager = usermanager;
             SignInManager = signInManager;
         }
 

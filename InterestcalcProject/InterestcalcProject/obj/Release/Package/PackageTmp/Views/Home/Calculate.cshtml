@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Calculate";
+}
+
+<h2>Calculate</h2>
+
+<div class="jumbotron">
+@using (Html.BeginForm("Calculate", "Home", FormMethod.Post))
+{
+    <h1>Calculator</h1>
+    <p class="lead" font-color ="blue">Fill in the details and click on calculate.</p>
+
+    <p><label>Principal Amount :</label>
+       
+       @Html.TextBox("amount")
+
+    </p>
+
+    <p>
+        <label>Number of years:</label>
+        &nbsp;
+
+        @Html.TextBox("years")
+
+    </p>
+
+    <p>
+        <label>Interest rate:</label>
+        
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        @Html.TextBox("rate")
+
+    </p>
+    <p>
+
+    </p>
+    <p>
+
+    </p>
+    <div align="center"><p><input  type="submit" name="Calculate"/></p></div>
+    <div>
+        <p color="green">@ViewBag.Message</p>
+        <p><label>@ViewBag.Interest</label></p>
+    </div>
+}
+</div>
