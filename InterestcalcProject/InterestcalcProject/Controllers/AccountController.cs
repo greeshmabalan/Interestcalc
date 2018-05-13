@@ -22,9 +22,9 @@ namespace InterestcalcProject.Controllers
         {
         }
 
-        public AccountController(ApplicationUserManager usermanager, ApplicationSignInManager signInManager )
+        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
-            UserManager = usermanager;
+            UserManager = userManager;
             SignInManager = signInManager;
         }
 
@@ -63,7 +63,8 @@ namespace InterestcalcProject.Controllers
 
         //
         // POST: /Account/Login
-        [HttpPost]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1726:UsePreferredTerms", MessageId = "Login")]
+        [HttpPost]  
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)

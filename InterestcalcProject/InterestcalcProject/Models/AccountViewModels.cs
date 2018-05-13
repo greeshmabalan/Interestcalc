@@ -46,6 +46,7 @@ namespace InterestcalcProject.Models
         public string Email { get; set; }
     }
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1726:UsePreferredTerms", MessageId = "Login")]
     public class LoginViewModel
     {
         [Required]

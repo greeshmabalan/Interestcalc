@@ -32,7 +32,7 @@ namespace InterestcalcProject.Controllers
 
             return View();
         }
-
+ 
         [HttpPost]
         public ActionResult Calculate(double amount, double years, double rate)
         {
