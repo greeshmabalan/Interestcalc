@@ -2,26 +2,19 @@
 <?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="14.0">
  <Namespaces>
-  <Namespace Name="InterestcalcProject">
-   <Messages>
-    <Message Id="Interestcalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="ExcludedInSource" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
-     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Interestcalc' in namespace name 'InterestcalcProject'.</Issue>
-    </Message>
-   </Messages>
-  </Namespace>
   <Namespace Name="InterestcalcProject.Controllers">
    <Messages>
-    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+    <Message TypeName="AvoidNamespacesWithFewTypes" Category="Microsoft.Design" CheckId="CA1020" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
      <Issue Certainty="50" Level="Warning">Consider merging the types defined in 'InterestcalcProject.Controllers' with another namespace.</Issue>
     </Message>
-    <Message Id="Interestcalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+    <Message Id="Interestcalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Interestcalc' in namespace name 'InterestcalcProject.Controllers'.</Issue>
     </Message>
    </Messages>
   </Namespace>
   <Namespace Name="InterestcalcProject.Models">
    <Messages>
-    <Message Id="Interestcalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+    <Message Id="Interestcalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Interestcalc' in namespace name 'InterestcalcProject.Models'.</Issue>
     </Message>
    </Messages>
@@ -32,13 +25,13 @@
    <Modules>
     <Module Name="interestcalcproject.dll">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'InterestcalcProject.dll' with a strong name key.</Issue>
       </Message>
-      <Message Id="Interestcalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+      <Message Id="Interestcalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
        <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Interestcalc' in assembly name 'InterestcalcProject.dll'.</Issue>
       </Message>
-      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="NonBreaking">
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="NonBreaking">
        <Issue Certainty="95" Level="Error">Mark 'InterestcalcProject.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
       </Message>
      </Messages>
@@ -49,14 +42,14 @@
          <Members>
           <Member Name="#Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1&lt;InterestcalcProject.ApplicationSignInManager&gt;,Microsoft.Owin.IOwinContext)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="IdentityConfig.cs" Line="106">In externally visible method 'ApplicationSignInManager.Create(IdentityFactoryOptions&lt;ApplicationSignInManager&gt;, IOwinContext)', validate parameter 'context' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CreateUserIdentityAsync(InterestcalcProject.Models.ApplicationUser)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="IdentityConfig.cs" Line="101">In externally visible method 'ApplicationSignInManager.CreateUserIdentityAsync(ApplicationUser)', validate parameter 'user' before using it.</Issue>
             </Message>
            </Messages>
@@ -67,11 +60,11 @@
          <Members>
           <Member Name="#Create(Microsoft.AspNet.Identity.Owin.IdentityFactoryOptions`1&lt;InterestcalcProject.ApplicationUserManager&gt;,Microsoft.Owin.IOwinContext)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="IdentityConfig.cs" Line="45">In method 'ApplicationUserManager.Create(IdentityFactoryOptions&lt;ApplicationUserManager&gt;, IOwinContext)', object 'manager' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'manager' before all references to it are out of scope.</Issue>
              <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="IdentityConfig.cs" Line="45">In method 'ApplicationUserManager.Create(IdentityFactoryOptions&lt;ApplicationUserManager&gt;, IOwinContext)', call System.IDisposable.Dispose on object 'new UserStore&lt;ApplicationUser&gt;(OwinContextExtensions.Get&lt;ApplicationDbContext&gt;(context))' before all references to it are out of scope.</Issue>
             </Message>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="IdentityConfig.cs" Line="81">In externally visible method 'ApplicationUserManager.Create(IdentityFactoryOptions&lt;ApplicationUserManager&gt;, IOwinContext)', validate parameter 'options' before using it.</Issue>
             </Message>
            </Messages>
@@ -80,14 +73,14 @@
         </Type>
         <Type Name="BundleConfig" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Error">Because type 'BundleConfig' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#RegisterBundles(System.Web.Optimization.BundleCollection)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="BundleConfig.cs" Line="11">In externally visible method 'BundleConfig.RegisterBundles(BundleCollection)', validate parameter 'bundles' before using it.</Issue>
             </Message>
            </Messages>
@@ -96,14 +89,14 @@
         </Type>
         <Type Name="FilterConfig" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Error">Because type 'FilterConfig' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="FilterConfig.cs" Line="10">In externally visible method 'FilterConfig.RegisterGlobalFilters(GlobalFilterCollection)', validate parameter 'filters' before using it.</Issue>
             </Message>
            </Messages>
@@ -112,14 +105,14 @@
         </Type>
         <Type Name="MvcApplication" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Mvc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+          <Message Id="Mvc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Mvc' in type name 'MvcApplication'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Application_Start()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject" File="Global.asax.cs" Line="14">The 'this' parameter (or 'Me' in Visual Basic) of 'MvcApplication.Application_Start()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -128,14 +121,14 @@
         </Type>
         <Type Name="RouteConfig" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
            <Issue Certainty="90" Level="Error">Because type 'RouteConfig' contains only 'static' ('Shared' in Visual Basic) members, add a default private constructor to prevent the compiler from adding a default public constructor.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="SmsService" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Sms" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+          <Message Id="Sms" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Sms' in type name 'SmsService'.</Issue>
           </Message>
          </Messages>
@@ -144,10 +137,10 @@
          <Members>
           <Member Name="#ConfigureAuth(Owin.IAppBuilder)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Auth" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Auth" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="Startup.Auth.cs" Line="16">Correct the spelling of 'Auth' in member name 'Startup.ConfigureAuth(IAppBuilder)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
             </Message>
-            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message TypeName="MarkMembersAsStatic" Category="Microsoft.Performance" CheckId="CA1822" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="95" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\App_Start" File="Startup.Auth.cs" Line="16">The 'this' parameter (or 'Me' in Visual Basic) of 'Startup.ConfigureAuth(IAppBuilder)' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.</Issue>
             </Message>
            </Messages>
@@ -162,71 +155,68 @@
          <Members>
           <Member Name="#ExternalLogin(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="60" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Controllers" File="AccountController.cs" Line="281">Change the type of parameter 'returnUrl' of method 'AccountController.ExternalLogin(string, string)' from string to System.Uri, or provide an overload of 'AccountController.ExternalLogin(string, string)', that allows 'returnUrl' to be passed as a System.Uri object.</Issue>
             </Message>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Controllers" File="AccountController.cs" Line="281">Replace the term 'Login' in member name 'AccountController.ExternalLogin(string, string)' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ExternalLoginCallback(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="60" Level="Error">Change the type of parameter 'returnUrl' of method 'AccountController.ExternalLoginCallback(string)' from string to System.Uri, or provide an overload of 'AccountController.ExternalLoginCallback(string)', that allows 'returnUrl' to be passed as a System.Uri object.</Issue>
             </Message>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Replace the term 'Login' in member name 'AccountController.ExternalLoginCallback(string)' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ExternalLoginConfirmation(InterestcalcProject.Models.ExternalLoginConfirmationViewModel,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="60" Level="Error">Change the type of parameter 'returnUrl' of method 'AccountController.ExternalLoginConfirmation(ExternalLoginConfirmationViewModel, string)' from string to System.Uri, or provide an overload of 'AccountController.ExternalLoginConfirmation(ExternalLoginConfirmationViewModel, string)', that allows 'returnUrl' to be passed as a System.Uri object.</Issue>
             </Message>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Replace the term 'Login' in member name 'AccountController.ExternalLoginConfirmation(ExternalLoginConfirmationViewModel, string)' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ExternalLoginFailure()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Controllers" File="AccountController.cs" Line="403">Replace the term 'Login' in member name 'AccountController.ExternalLoginFailure()' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Login(InterestcalcProject.Models.LoginViewModel,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="60" Level="Error">Change the type of parameter 'returnUrl' of method 'AccountController.Login(LoginViewModel, string)' from string to System.Uri, or provide an overload of 'AccountController.Login(LoginViewModel, string)', that allows 'returnUrl' to be passed as a System.Uri object.</Issue>
-            </Message>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="ExcludedInSource" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
-             <Issue Name="Member" Certainty="95" Level="Error">Replace the term 'Login' in member name 'AccountController.Login(LoginViewModel, string)' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#Login(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="60" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Controllers" File="AccountController.cs" Line="59">Change the type of parameter 'returnUrl' of method 'AccountController.Login(string)' from string to System.Uri, or provide an overload of 'AccountController.Login(string)', that allows 'returnUrl' to be passed as a System.Uri object.</Issue>
             </Message>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Controllers" File="AccountController.cs" Line="59">Replace the term 'Login' in member name 'AccountController.Login(string)' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#SendCode(System.String,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="0#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="60" Level="Error">Change the type of parameter 'returnUrl' of method 'AccountController.SendCode(string, bool)' from string to System.Uri, or provide an overload of 'AccountController.SendCode(string, bool)', that allows 'returnUrl' to be passed as a System.Uri object.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#VerifyCode(System.String,System.String,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="1#" TypeName="UriParametersShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1054" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="60" Level="Error">Change the type of parameter 'returnUrl' of method 'AccountController.VerifyCode(string, string, bool)' from string to System.Uri, or provide an overload of 'AccountController.VerifyCode(string, string, bool)', that allows 'returnUrl' to be passed as a System.Uri object.</Issue>
             </Message>
            </Messages>
@@ -237,7 +227,7 @@
          <Members>
           <Member Name="#ExecuteResult(System.Web.Mvc.ControllerContext)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="DependsOnFix">
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="DependsOnFix">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Controllers" File="AccountController.cs" Line="481">In externally visible method 'AccountController.ChallengeResult.ExecuteResult(ControllerContext)', validate parameter 'context' before using it.</Issue>
             </Message>
            </Messages>
@@ -248,24 +238,24 @@
          <Members>
           <Member Name="#LinkLogin(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Controllers" File="ManageController.cs" Line="307">Replace the term 'Login' in member name 'ManageController.LinkLogin(string)' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#LinkLoginCallback()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Replace the term 'Login' in member name 'ManageController.LinkLoginCallback()' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#RemoveLogin(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Replace the term 'Login' in member name 'ManageController.RemoveLogin(string, string)' with the preferred alternate 'LogOn'.</Issue>
             </Message>
-            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="MemberParameter" Certainty="95" Level="Error">In member 'ManageController.RemoveLogin(string, string)', replace the term 'login' in parameter name 'loginProvider' with the preferred alternate 'logOn'.</Issue>
             </Message>
            </Messages>
@@ -276,7 +266,7 @@
          <Members>
           <Member Name="#RemoveLoginSuccess" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Name="Member" Certainty="95" Level="Error">Replace the term 'Login' in member name 'ManageController.ManageMessageId.RemoveLoginSuccess' with the preferred alternate 'LogOn'.</Issue>
             </Message>
            </Messages>
@@ -291,7 +281,7 @@
          <Members>
           <Member Name="#Providers" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="ManageViewModels.cs" Line="84">Change 'ConfigureTwoFactorViewModel.Providers' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
@@ -300,21 +290,21 @@
         </Type>
         <Type Name="ExternalLoginConfirmationViewModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+          <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="95" Level="Error">Replace the term 'Login' in type name 'ExternalLoginConfirmationViewModel' with the preferred alternate 'LogOn'.</Issue>
           </Message>
          </Messages>
         </Type>
         <Type Name="ExternalLoginListViewModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+          <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
            <Issue Name="Type" Certainty="95" Level="Error">Replace the term 'Login' in type name 'ExternalLoginListViewModel' with the preferred alternate 'LogOn'.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#ReturnUrl" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="AccountViewModels.cs" Line="15">Change the type of property 'ExternalLoginListViewModel.ReturnUrl' from string to System.Uri.</Issue>
             </Message>
            </Messages>
@@ -325,32 +315,25 @@
          <Members>
           <Member Name="#Logins" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="ManageViewModels.cs" Line="11">Change 'IndexViewModel.Logins' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
           </Member>
          </Members>
         </Type>
-        <Type Name="LoginViewModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
-         <Messages>
-          <Message Id="Login" TypeName="UsePreferredTerms" Category="Microsoft.Naming" CheckId="CA1726" Status="ExcludedInSource" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
-           <Issue Name="Type" Certainty="95" Level="Error">Replace the term 'Login' in type name 'LoginViewModel' with the preferred alternate 'LogOn'.</Issue>
-          </Message>
-         </Messages>
-        </Type>
         <Type Name="ManageLoginsViewModel" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Members>
           <Member Name="#CurrentLogins" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="ManageViewModels.cs" Line="19">Change 'ManageLoginsViewModel.CurrentLogins' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OtherLogins" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="ManageViewModels.cs" Line="20">Change 'ManageLoginsViewModel.OtherLogins' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
@@ -361,14 +344,14 @@
          <Members>
           <Member Name="#Providers" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="CollectionPropertiesShouldBeReadOnly" Category="Microsoft.Usage" CheckId="CA2227" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Warning" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="AccountViewModels.cs" Line="21">Change 'SendCodeViewModel.Providers' to be read-only by removing the property setter.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ReturnUrl" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="AccountViewModels.cs" Line="22">Change the type of property 'SendCodeViewModel.ReturnUrl' from string to System.Uri.</Issue>
             </Message>
            </Messages>
@@ -379,7 +362,7 @@
          <Members>
           <Member Name="#ReturnUrl" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2018-05-09 20:01:27Z" FixCategory="Breaking">
+            <Message TypeName="UriPropertiesShouldNotBeStrings" Category="Microsoft.Design" CheckId="CA1056" Status="Active" Created="2018-05-14 15:16:55Z" FixCategory="Breaking">
              <Issue Certainty="75" Level="Error" Path="C:\Users\greeshma.balan\Source\Repos\InterestCalculator\InterestcalcProject\InterestcalcProject\Models" File="AccountViewModels.cs" Line="34">Change the type of property 'VerifyCodeViewModel.ReturnUrl' from string to System.Uri.</Issue>
             </Message>
            </Messages>
